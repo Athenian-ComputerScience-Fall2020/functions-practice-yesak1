@@ -20,6 +20,6 @@ print(output_num)
 
 '''
 Add prediction(s) here:
-
+-the output will be 45 because the function math2 is called which is 50-5.
 
 '''
