@@ -3,17 +3,17 @@ Collaborators:
 Kasey
 
 '''
-def addition():
+def addition(num1,num2):
     add=num1+num2
     return add
-def subtract():
+def subtract(num1,num2):
     sub=num1-num2
     return sub
-def multiply():
+def multiply(num1,num2):
     mult=num1*num2
     return mult
-def divide():
-    div=num1%num2
+def divide(num1,num2):
+    div=num1/num2
     return div
 
 
@@ -23,18 +23,17 @@ num2=int(input("enter another number"))
 asmd=int(input("enter 1 to add, 2 to subtract, 3 to mulitply, or 4 to divide"))
 
 if asmd==1:
-    print (addition())
+    print (num1,"+",num2,"=",(addition(num1,num2)))
 elif asmd==2:
-    print (subtract())
+    print (num1, "-", num2, "=", subtract(num1,num2))
 elif asmd==3:
-    print (multiply())
+    print (num1, "*", num2, "=", multiply(num1,num2))
 elif asmd==4:
-    print (divide())
+    print (num1, "/", num2, "=", divide(num1,num2))
     
     
 
 
        
-
 
 
